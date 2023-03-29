@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 import os
 
-N = pd.read_csv("../processed_csv/small_chunked_sporadic.csv")["ID"].nunique()
+N = pd.read_csv("../../gru_ode_bayes/datasets/Climate/small_chunked_sporadic.csv")["ID"].nunique()
 full_idx = np.arange(N)
 Nfolds = 5
 

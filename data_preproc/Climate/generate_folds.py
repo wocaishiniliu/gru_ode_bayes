@@ -12,7 +12,7 @@ np.random.seed(432)
 for fold in range(Nfolds):
     train_idx, test_idx = train_test_split(np.arange(N),test_size=0.1)
     train_idx, val_idx = train_test_split(train_idx,test_size=0.2)
-    fold_dir = f"small_chunk_fold_idx_{fold}/"
+    fold_dir = f"./../gru_ode_bayes/datasets/Climate/folds/small_chunk_fold_idx_{fold}/"
     if not os.path.exists(fold_dir):
         os.makedirs(fold_dir)
     np.save(fold_dir+f"train_idx.npy",train_idx)

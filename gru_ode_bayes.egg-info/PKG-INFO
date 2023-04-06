@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: gru-ode-bayes
+Version: 0.0.1
+Summary: GRU ODE package
+Home-page: https://github.com/pypa/sampleproject
+Author: Anonymous
+Author-email: author@example.com
+Description-Content-Type: text/markdown
+License-File: License.md
+
+Some long description
